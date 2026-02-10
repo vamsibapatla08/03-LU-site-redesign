@@ -62,9 +62,30 @@ h1 {
 
 /* Images */
 
+.special-offer {
+  display: flex;
+  flex-direction: row;
+}
+
+.special-offer h3 {
+  position: relative;
+  top: 100px;
+  color:darkslategray;
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.special-offer p{
+  position: relative;
+  top: 100px;
+  right: 70px;
+  font-size: 19px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #hero-container img {
-  width: 900px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
   border-radius: 15px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   filter: grayscale(40%);
@@ -73,6 +94,9 @@ h1 {
 .special-offer img {
   width: 400px;
   border-radius: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   height: 350px;
