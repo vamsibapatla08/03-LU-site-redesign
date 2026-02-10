@@ -13,7 +13,7 @@ nav{
 }
 
 nav ul {
-  gap: 200px;
+  gap: 170px;
   font-size: 25px;
   overflow-x: auto;
   display: flex;
@@ -43,13 +43,14 @@ p {
   word-spacing: 0.3em;
   max-width: 680px;
   margin-left: 430px;
+  margin-bottom: 50px;
   text-align: center;
   color: black;
 }
 
 h2 {
   font-family: MerriWeather, serif;
-  font-size: 30px;
+  font-size: 35px;
   color: rgb(74, 27, 27);
 }
 
